@@ -1,0 +1,37 @@
+.project-list {
+  padding: 48px 24px 64px;
+}
+
+.project-list__inner {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.project-list__heading {
+  margin: 0 0 32px;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--primary-dark);
+  text-align: center;
+}
+
+.project-list__grid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (max-width: 640px) {
+  .project-list {
+    padding: 36px 20px 48px;
+  }
+
+  .project-list__heading {
+    margin-bottom: 24px;
+  }
+}

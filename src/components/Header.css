@@ -1,0 +1,39 @@
+.header {
+  padding: 64px 24px 48px;
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    var(--primary-light) 0%,
+    var(--bg) 100%
+  );
+}
+
+.header__inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.header__name {
+  margin: 0 0 12px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--primary-dark);
+  opacity: 0.85;
+}
+
+.header__catchphrase {
+  margin: 0;
+  font-size: clamp(1.75rem, 5vw, 2.5rem);
+  font-weight: 700;
+  line-height: 1.45;
+  letter-spacing: -0.02em;
+  color: var(--text-heading);
+}
+
+@media (max-width: 640px) {
+  .header {
+    padding: 48px 20px 36px;
+  }
+}

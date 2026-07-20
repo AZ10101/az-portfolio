@@ -1,0 +1,149 @@
+.profile {
+  padding: 48px 24px 64px;
+  border-top: 1px solid var(--border);
+}
+
+.profile__inner {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.profile__heading {
+  margin: 0 0 32px;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--primary-dark);
+  text-align: center;
+}
+
+.profile-card {
+  display: flex;
+  align-items: stretch;
+  height: 200px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.profile-card__image-wrap {
+  flex: 0 0 240px;
+  width: 240px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-light);
+  overflow: hidden;
+}
+
+.profile-card__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.profile-card__body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  padding: 20px 24px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.profile-card__name {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text-heading);
+  flex-shrink: 0;
+}
+
+.profile-card__name-label {
+  font-weight: 600;
+  color: var(--text-body);
+}
+
+.profile-card__bio {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.profile-card__bio-line {
+  margin: 0;
+  font-size: 0.8125rem;
+  line-height: 1.55;
+  color: var(--text-body);
+}
+
+.profile-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 4px 0 0;
+  padding: 0;
+  list-style: none;
+  flex-shrink: 0;
+}
+
+.profile-card__link {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 16px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--primary-dark);
+  text-decoration: none;
+  background: var(--primary-light);
+  border: 1px solid var(--primary);
+  border-radius: 999px;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.profile-card__link:hover,
+.profile-card__link:focus-visible {
+  background: var(--primary);
+  transform: translateY(-1px);
+}
+
+.profile-card__link:focus-visible {
+  outline: 2px solid var(--primary-dark);
+  outline-offset: 2px;
+}
+
+@media (max-width: 640px) {
+  .profile {
+    padding: 36px 20px 48px;
+  }
+
+  .profile__heading {
+    margin-bottom: 24px;
+  }
+
+  .profile-card {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .profile-card__image-wrap {
+    flex: none;
+    width: 100%;
+    height: 200px;
+  }
+
+  .profile-card__body {
+    padding: 20px;
+    overflow: visible;
+  }
+}
