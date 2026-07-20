@@ -12,7 +12,7 @@ export const projects: Project[] = [
     id: 'planter',
     name: 'PLANter',
     description:
-      '「やりたい」をタネにして育てる、新感覚ウィッシュリスト。\n30日以内にやりたいことを植えて、忙しい毎日の中でも忘れないように。',
+      '「やりたい」をタネにして育てる、新感覚ウィッシュリスト。\n優先順位をつけて、30日以内に夢を叶えよう！',
     image: '/projects/planter.png',
     url: 'https://planter-v0.vercel.app/',
     tags: ['ウィッシュリスト'],
@@ -21,7 +21,7 @@ export const projects: Project[] = [
     id: 'yonka-timer',
     name: '４科タイマー',
     description:
-      '中学受験生向けのシンプルな集中タイマー。\n国語・算数・理科・社会の4科ごとに勉強時間を計測・集計できる。',
+      '中学受験生向けのシンプルな集中タイマー。\n国語・算数・理科・社会の４科ごとの勉強時間計測も可能。自走する中学受験のサポートに。',
     image: '/projects/yonka-timer.jpg',
     url: 'https://yonka-timer.vercel.app/',
     tags: ['教育'],
