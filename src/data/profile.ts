@@ -1,6 +1,6 @@
 export const profile = {
   name: 'AZ',
-  catchphrase: '思いついたものを、形にしていく。',
+  catchphrase: '思いついたものを\n形にしていく',
   image: '/profile.png',
   bio: [
     '趣味でWebアプリを個人開発をしています。',
