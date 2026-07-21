@@ -1,5 +1,5 @@
 .header {
-  padding: 64px 24px 48px;
+  padding: 48px 24px 40px;
   text-align: center;
   background: linear-gradient(
     180deg,
@@ -9,21 +9,28 @@
 }
 
 .header__inner {
-  max-width: 720px;
+  max-width: 520px;
   margin: 0 auto;
 }
 
 .header__title {
   margin: 0;
-  font-size: clamp(1.75rem, 5vw, 2.5rem);
-  font-weight: 700;
-  line-height: 1.45;
-  letter-spacing: -0.02em;
-  color: var(--primary-dark);
+  line-height: 0;
+}
+
+.header__logo {
+  display: block;
+  width: min(100%, 420px);
+  height: auto;
+  margin: 0 auto;
 }
 
 @media (max-width: 640px) {
   .header {
-    padding: 48px 20px 36px;
+    padding: 36px 20px 28px;
+  }
+
+  .header__logo {
+    width: min(100%, 320px);
   }
 }

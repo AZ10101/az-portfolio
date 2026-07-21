@@ -1,6 +1,7 @@
 export const profile = {
   name: 'AZ',
   siteTitle: 'AZのさくひんおきば',
+  siteLogo: '/site-logo.png',
   image: '/profile.png',
   bio: [
     '趣味でWebアプリを個人開発をしています。',
