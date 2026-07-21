@@ -9,13 +9,13 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    id: 'planter',
-    name: 'PLANter',
+    id: 'kigo-training',
+    name: 'キゴトレ',
     description:
-      '「やりたい」をタネにして育てる、新感覚ウィッシュリスト。\n優先順位をつけて、30日以内に夢を叶えよう！',
-    image: '/projects/planter.png',
-    url: 'https://planter-v0.vercel.app/',
-    tags: ['ウィッシュリスト'],
+      '季語を知れば、俳句はもっと面白い。\n引いた季語カードで俳句を作る、作句力向上アプリ。',
+    image: '/projects/kigo-training.png',
+    url: 'https://kigo-training.vercel.app/',
+    tags: ['俳句'],
   },
   {
     id: 'yonka-timer',
@@ -27,12 +27,12 @@ export const projects: Project[] = [
     tags: ['教育'],
   },
   {
-    id: 'kigo-training',
-    name: 'キゴトレ',
+    id: 'planter',
+    name: 'PLANter',
     description:
-      '季語を知れば、俳句はもっと面白い。\n引いた季語カードで俳句を作る、作句力向上アプリ。',
-    image: '/projects/kigo-training.png',
-    url: 'https://kigo-training.vercel.app/',
-    tags: ['俳句'],
+      '「やりたい」をタネにして育てる、新感覚ウィッシュリスト。\n優先順位をつけて、30日以内に夢を叶えよう！',
+    image: '/projects/planter.png',
+    url: 'https://planter-v0.vercel.app/',
+    tags: ['ウィッシュリスト'],
   },
 ]
