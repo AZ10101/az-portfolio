@@ -7,13 +7,15 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <main>
-        <ProjectList />
-      </main>
-      <Profile />
-      <footer className="footer">
-        <p>© {new Date().getFullYear()} AZ</p>
-      </footer>
+      <div className="app__scroll">
+        <main>
+          <ProjectList />
+        </main>
+        <Profile />
+        <footer className="footer">
+          <p>© {new Date().getFullYear()} AZ</p>
+        </footer>
+      </div>
     </div>
   )
 }
