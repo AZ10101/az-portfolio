@@ -9,6 +9,15 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: 'imaginary-savings',
+    name: '空想貯金',
+    description:
+      '無駄遣いしなかったお金をためて、なかったはずの1万円を作り出す。\n楽しく無駄遣いを控えよう。',
+    image: '/projects/imaginary-savings.png',
+    url: 'https://imaginary-savings.vercel.app/',
+    tags: ['貯金'],
+  },
+  {
     id: 'kigo-training',
     name: 'キゴトレ',
     description:
