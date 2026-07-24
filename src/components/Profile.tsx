@@ -9,26 +9,18 @@ export function Profile() {
           プロフィール
         </h2>
         <article className="profile-card">
-          <div className="profile-card__image-wrap">
-            <img
-              src={profile.image}
-              alt=""
-              className="profile-card__image"
-              loading="lazy"
-            />
+          <p className="profile-card__name">
+            <span className="profile-card__name-label">Name：</span>
+            {profile.name}
+          </p>
+          <div className="profile-card__bio">
+            {profile.bio.map((line) => (
+              <p key={line} className="profile-card__bio-line">
+                {line}
+              </p>
+            ))}
           </div>
-          <div className="profile-card__body">
-            <p className="profile-card__name">
-              <span className="profile-card__name-label">Name：</span>
-              {profile.name}
-            </p>
-            <div className="profile-card__bio">
-              {profile.bio.map((line) => (
-                <p key={line} className="profile-card__bio-line">
-                  {line}
-                </p>
-              ))}
-            </div>
+          {profile.links.length > 0 && (
             <ul className="profile-card__links">
               {profile.links.map((link) => (
                 <li key={link.label}>
@@ -43,7 +35,7 @@ export function Profile() {
                 </li>
               ))}
             </ul>
-          </div>
+          )}
         </article>
       </div>
     </section>
