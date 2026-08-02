@@ -17,15 +17,15 @@ export const projects: Project[] = [
     url: 'https://imaginary-savings.vercel.app/',
     tags: ['貯金'],
   },
-  {
-    id: 'kigo-training',
-    name: 'キゴトレ',
-    description:
-      '季語を知れば、俳句はもっと面白い。\n引いた季語カードで俳句を作る、作句力向上アプリ。',
-    image: '/projects/kigo-training.png',
-    url: 'https://kigo-training.vercel.app/',
-    tags: ['俳句'],
-  },
+  // {
+  //   id: 'kigo-training',
+  //   name: 'キゴトレ',
+  //   description:
+  //     '季語を知れば、俳句はもっと面白い。\n引いた季語カードで俳句を作る、作句力向上アプリ。',
+  //   image: '/projects/kigo-training.png',
+  //   url: 'https://kigo-training.vercel.app/',
+  //   tags: ['俳句'],
+  // },
   {
     id: 'yonka-timer',
     name: '４科タイマー',
