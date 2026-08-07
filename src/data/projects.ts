@@ -9,6 +9,15 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: 'lunar-label',
+    name: 'Lunar Label',
+    description:
+      'ラベルやミニプリンタに、今日の月を。\n日付と月の見え方を、ラベル用の画像として出力。',
+    image: '/projects/lunar-label.png',
+    url: 'https://lunar-label.vercel.app/',
+    tags: ['素材'],
+  },
+  {
     id: 'imaginary-savings',
     name: '空想貯金',
     description:
